@@ -4,10 +4,18 @@
     android:layout_height="match_parent"
     android:orientation="horizontal" >"
 
+    <include
+        layout="@android:layout/select_dialog_item"
+        android:id="@+id/item" />
+<!--
     <TextView
         android:id="@+id/row"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="10dp" />
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:drawablePadding="5dp"
+        android:textSize="20sp" />
+-->
 
 </LinearLayout>
