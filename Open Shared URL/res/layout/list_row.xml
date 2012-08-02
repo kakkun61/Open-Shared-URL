@@ -2,11 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal" >"
-
+    android:orientation="horizontal" >
     <include
         layout="@android:layout/select_dialog_item"
         android:id="@+id/item" />
+<!--
+    <include
+        layout="@layout/app"
+        android:id="@+id/item"/>
+-->
 <!--
     <TextView
         android:id="@+id/row"

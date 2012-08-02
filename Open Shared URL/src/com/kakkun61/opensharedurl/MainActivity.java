@@ -3,26 +3,21 @@ package com.kakkun61.opensharedurl;
 import java.util.Collections;
 import java.util.List;
 
-import android.net.Uri;
-import android.os.Bundle;
-import android.app.Activity;
 import android.app.ListActivity;
 import android.content.ComponentName;
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
+import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends ListActivity {
     private AppAdapter adapter;
@@ -67,11 +62,10 @@ public class MainActivity extends ListActivity {
         public View getView(int position, View convertView, ViewGroup parent) {
             if (convertView == null) {
                 convertView = getLayoutInflater().inflate(R.layout.list_row, parent, false);
-                convertView.setTag(convertView.findViewById(R.id.item).findViewById(android.R.id.text1));
+                convertView.setTag(convertView.findViewById(R.id.item));
             }
 
             TextView text = (TextView) convertView.getTag();
-            if (text == null) {Log.d("Open Shared URL", "text ‚Ê‚é‚Û");}
             text.setText(getItem(position).loadLabel(pm));
             Drawable icon = getItem(position).loadIcon(pm);
             icon.setBounds(0, 0, icon.getIntrinsicWidth(), icon.getIntrinsicHeight());
