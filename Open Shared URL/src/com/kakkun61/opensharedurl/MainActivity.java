@@ -21,6 +21,7 @@ import android.widget.TextView;
 
 public class MainActivity extends ListActivity {
     private AppAdapter adapter;
+    private float density;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -34,6 +35,8 @@ public class MainActivity extends ListActivity {
 
         adapter = new AppAdapter(pm, resolveInfos);
         setListAdapter(adapter);
+
+        density = getResources().getDisplayMetrics().density;
     }
 
     @Override
@@ -67,9 +70,7 @@ public class MainActivity extends ListActivity {
 
             TextView text = (TextView) convertView.getTag();
             text.setText(getItem(position).loadLabel(pm));
-            Drawable icon = getItem(position).loadIcon(pm);
-            icon.setBounds(0, 0, icon.getIntrinsicWidth(), icon.getIntrinsicHeight());
-            text.setCompoundDrawables(icon, null, null, null);
+            text.setCompoundDrawablesWithIntrinsicBounds(getItem(position).loadIcon(pm), null, null, null);
 
             return convertView;
         }
