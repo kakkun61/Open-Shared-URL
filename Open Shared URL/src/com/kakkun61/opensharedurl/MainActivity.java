@@ -21,7 +21,7 @@ import android.widget.TextView;
 
 public class MainActivity extends ListActivity {
     private AppAdapter adapter;
-    private float density;
+    private String uri;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -36,7 +36,7 @@ public class MainActivity extends ListActivity {
         adapter = new AppAdapter(pm, resolveInfos);
         setListAdapter(adapter);
 
-        density = getResources().getDisplayMetrics().density;
+        uri = getIntent().getExtras().getString(Intent.EXTRA_TEXT);
     }
 
     @Override
@@ -48,9 +48,12 @@ public class MainActivity extends ListActivity {
       Intent intent = new Intent(Intent.ACTION_MAIN);
       intent.addCategory(Intent.CATEGORY_LAUNCHER);
       intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED);
+      intent.setData(Uri.parse(uri));
       intent.setComponent(name);
 
       startActivity(intent);
+
+      finish();
     }
 
     private class AppAdapter extends ArrayAdapter<ResolveInfo> {
