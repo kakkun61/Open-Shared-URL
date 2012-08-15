@@ -21,22 +21,22 @@ import android.widget.TextView;
 
 public class MainActivity extends ListActivity {
     private AppAdapter adapter;
-    private String uri;
+    private Uri uri;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        uri = Uri.parse(getIntent().getExtras().getString(Intent.EXTRA_TEXT));
+
         PackageManager pm = getPackageManager();
-        Intent urlIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com"));
+        Intent urlIntent = new Intent(Intent.ACTION_VIEW, uri);
         List<ResolveInfo> resolveInfos = pm.queryIntentActivities(urlIntent, 0);
         Collections.sort(resolveInfos, new ResolveInfo.DisplayNameComparator(pm));
 
         adapter = new AppAdapter(pm, resolveInfos);
         setListAdapter(adapter);
-
-        uri = getIntent().getExtras().getString(Intent.EXTRA_TEXT);
     }
 
     @Override
@@ -48,7 +48,7 @@ public class MainActivity extends ListActivity {
       Intent intent = new Intent(Intent.ACTION_MAIN);
       intent.addCategory(Intent.CATEGORY_LAUNCHER);
       intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED);
-      intent.setData(Uri.parse(uri));
+      intent.setData(uri);
       intent.setComponent(name);
 
       startActivity(intent);
