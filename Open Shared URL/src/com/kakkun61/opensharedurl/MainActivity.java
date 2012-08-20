@@ -11,6 +11,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
@@ -27,6 +28,7 @@ public class MainActivity extends ListActivity {
         setContentView(R.layout.activity_main);
 
         uri = Uri.parse(getIntent().getExtras().getString(Intent.EXTRA_TEXT));
+        Log.d("Open Shared URL", "URI: " + uri);
 
         PackageManager pm = getPackageManager();
         Intent urlIntent = new Intent(Intent.ACTION_VIEW, uri);
