@@ -68,18 +68,10 @@ public class MainActivity extends ListActivity {
         public View getView(int position, View convertView, ViewGroup parent) {
             if (convertView == null) {
                 convertView = getLayoutInflater().inflate(R.layout.list_row, parent, false);
-                if (convertView.findViewById(R.id.item) == null) {
-                  Log.e("Open Shared URL", "R.id.item is null.");
-                  finish();
-                }
                 convertView.setTag(convertView.findViewById(R.id.item));
             }
 
             TextView text = (TextView) convertView.getTag();
-            if (text == null) {
-              Log.e("Open Shared URL", "TextView is null.");
-              finish();
-            }
             text.setText(getItem(position).loadLabel(pm));
             text.setCompoundDrawablesWithIntrinsicBounds(getItem(position).loadIcon(pm), null, null, null);
 
