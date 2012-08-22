@@ -45,9 +45,7 @@ public class MainActivity extends ListActivity {
       ActivityInfo activityInfo = resolveInfo.activityInfo;
       ComponentName name = new ComponentName(activityInfo.applicationInfo.packageName, activityInfo.name);
 
-      Intent intent = new Intent(Intent.ACTION_MAIN);
-      intent.addCategory(Intent.CATEGORY_LAUNCHER);
-      intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED);
+      Intent intent = new Intent(Intent.ACTION_VIEW);
       intent.setData(uri);
       intent.setComponent(name);
 
