@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.kakkun61.opensharedurl"
-        minSdkVersion 14
+        minSdkVersion 9
         targetSdkVersion 21
         versionCode 4
         versionName "1.3"
