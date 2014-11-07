@@ -1,3 +1,6 @@
-Open\ Shared\ URL/bin
-Open\ Shared\ URL/gen
-
+.gradle
+/Open\ Shared\ URL/local.properties
+/Open\ Shared\ URL/.idea/workspace.xml
+/Open\ Shared\ URL/.idea/libraries
+.DS_Store
+/Open\ Shared\ URL/build
