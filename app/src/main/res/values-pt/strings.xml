@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Abrir URL compartilhada</string>
+    <string name="not_url">O texto compartilhado não é um URL.</string>
+    <string name="no_app">Nenhum aplicativo pode abrir este texto compartilhado.</string>
+    <string name="show_launcher">Mostrar este aplicativo no inicializador</string>
+    <string name="description">Este aplicativo deve ser chamado por uma ação “Compartilhar”. E assim você pode ocultar o ícone deste aplicativo no inicializador.</string>
+    <string name="share_sample">Compartilhe http://kakkun61.com/ como exemplo</string>
+</resources>

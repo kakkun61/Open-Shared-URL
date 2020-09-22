@@ -1,6 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">Open Shared URL</string>
-    <string name="title_activity_main">Open Shared URL</string>
+    <string name="not_url">The shared text is not a URL.</string>
+    <string name="no_app">No apps can open this shared text.</string>
+
+    <string name="show_launcher">Show this app in the launcher</string>
+    <string name="description">This app is intended to be called by a “Share” action. And so you can hide this app\'s icon in the launcher.</string>
+    <string name="share_sample">Share http://kakkun61.com/ as an example</string>
 
 </resources>
