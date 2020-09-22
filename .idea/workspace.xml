@@ -5,42 +5,22 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9185e9e5-6428-4b83-bdad-cfcfd795a862" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/kakkun61/opensharedurl/DialogActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dialog.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/.idea/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/.idea/scopes/scope_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/Open Shared URL.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/OpenSharedURL.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/app/app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/app/src/androidTest/java/com/kakkun61/opensharedurl/ApplicationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/app/src/main/java/com/kakkun61/opensharedurl/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/app/src/main/res/drawable-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/app/src/main/res/drawable-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/app/src/main/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Open Shared URL/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kakkun61/opensharedurl/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +51,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hrkW4IWdVsKWTYcGvv4zfgoYlo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -81,6 +64,11 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.1951886135">
+      <recent name="com.kakkun61.opensharedurl" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -99,7 +87,7 @@
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
+      <option name="MODE" value="do_nothing" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
@@ -156,26 +144,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="861" y="490" key="AndroidCreateResourceFileDialog" timestamp="1600777011076">
+    <state x="736" y="390" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600777510473">
       <screen x="0" y="31" width="2560" height="1409" />
     </state>
-    <state x="861" y="490" key="AndroidCreateResourceFileDialog/0.31.2560.1409/3840.-105.1920.1080/3840.975.1920.1200@0.31.2560.1409" timestamp="1600777011076" />
-    <state width="2516" height="402" key="GridCell.Tab.0.bottom" timestamp="1600777227410">
+    <state x="736" y="390" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.31.2560.1409/3840.-105.1920.1080/3840.975.1920.1200@0.31.2560.1409" timestamp="1600777510473" />
+    <state x="1011" y="482" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600784209797">
       <screen x="0" y="31" width="2560" height="1409" />
     </state>
-    <state width="2516" height="402" key="GridCell.Tab.0.bottom/0.31.2560.1409/3840.-105.1920.1080/3840.975.1920.1200@0.31.2560.1409" timestamp="1600777227410" />
-    <state width="2516" height="402" key="GridCell.Tab.0.center" timestamp="1600777227410">
+    <state x="1011" y="482" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.31.2560.1409/3840.-105.1920.1080/3840.975.1920.1200@0.31.2560.1409" timestamp="1600784209797" />
+    <state x="861" y="490" key="AndroidCreateResourceFileDialog" timestamp="1600777317222">
       <screen x="0" y="31" width="2560" height="1409" />
     </state>
-    <state width="2516" height="402" key="GridCell.Tab.0.center/0.31.2560.1409/3840.-105.1920.1080/3840.975.1920.1200@0.31.2560.1409" timestamp="1600777227410" />
-    <state width="2516" height="402" key="GridCell.Tab.0.left" timestamp="1600777227409">
+    <state x="861" y="490" key="AndroidCreateResourceFileDialog/0.31.2560.1409/3840.-105.1920.1080/3840.975.1920.1200@0.31.2560.1409" timestamp="1600777317222" />
+    <state width="2516" height="402" key="GridCell.Tab.0.bottom" timestamp="1600784467232">
       <screen x="0" y="31" width="2560" height="1409" />
     </state>
-    <state width="2516" height="402" key="GridCell.Tab.0.left/0.31.2560.1409/3840.-105.1920.1080/3840.975.1920.1200@0.31.2560.1409" timestamp="1600777227409" />
-    <state width="2516" height="402" key="GridCell.Tab.0.right" timestamp="1600777227410">
+    <state width="2516" height="402" key="GridCell.Tab.0.bottom/0.31.2560.1409/3840.-105.1920.1080/3840.975.1920.1200@0.31.2560.1409" timestamp="1600784467232" />
+    <state width="2516" height="402" key="GridCell.Tab.0.center" timestamp="1600784467232">
       <screen x="0" y="31" width="2560" height="1409" />
     </state>
-    <state width="2516" height="402" key="GridCell.Tab.0.right/0.31.2560.1409/3840.-105.1920.1080/3840.975.1920.1200@0.31.2560.1409" timestamp="1600777227410" />
+    <state width="2516" height="402" key="GridCell.Tab.0.center/0.31.2560.1409/3840.-105.1920.1080/3840.975.1920.1200@0.31.2560.1409" timestamp="1600784467232" />
+    <state width="2516" height="402" key="GridCell.Tab.0.left" timestamp="1600784467232">
+      <screen x="0" y="31" width="2560" height="1409" />
+    </state>
+    <state width="2516" height="402" key="GridCell.Tab.0.left/0.31.2560.1409/3840.-105.1920.1080/3840.975.1920.1200@0.31.2560.1409" timestamp="1600784467232" />
+    <state width="2516" height="402" key="GridCell.Tab.0.right" timestamp="1600784467232">
+      <screen x="0" y="31" width="2560" height="1409" />
+    </state>
+    <state width="2516" height="402" key="GridCell.Tab.0.right/0.31.2560.1409/3840.-105.1920.1080/3840.975.1920.1200@0.31.2560.1409" timestamp="1600784467232" />
     <state x="1043" y="579" key="edit.logcat.filter.dialog.dimensions" timestamp="1600777093591">
       <screen x="0" y="31" width="2560" height="1409" />
     </state>
