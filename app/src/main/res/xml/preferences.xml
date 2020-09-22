@@ -1,0 +1,14 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        app:key="show_launcher"
+        app:title="@string/show_launcher"
+        app:summary="@string/description"
+        app:defaultValue="true" />
+
+    <Preference
+        app:key="share_sample"
+        app:title="@string/share_sample"
+        app:icon="@android:drawable/ic_menu_share" />
+
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">共有された URL を別のアプリで開く</string>
+    <string name="not_url">共有されたテキストが URL ではありません。</string>
+    <string name="no_app">共有されたテキストを開けるアプリがありません。</string>
+
+    <string name="show_launcher">ホームのアプリ一覧にこのアプリを表示する</string>
+    <string name="description">このアプリは「共有」によって呼び出されるアプリです。よってホームのアプリ一覧でこのアプリを非表示にできます。</string>
+    <string name="share_sample">動作確認として http://kakkun61.com/ を共有する</string>
+
+</resources>
