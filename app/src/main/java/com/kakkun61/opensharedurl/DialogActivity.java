@@ -10,6 +10,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -46,7 +47,9 @@ public class DialogActivity extends AppCompatActivity {
 
         PackageManager pm = getPackageManager();
         Intent urlIntent = new Intent(Intent.ACTION_VIEW, uri);
-        List<ResolveInfo> resolveInfos = pm.queryIntentActivities(urlIntent, 0);
+        int flags = 0;
+        if (Build.VERSION_CODES.M <= Build.VERSION.SDK_INT) flags = PackageManager.MATCH_ALL;
+        List<ResolveInfo> resolveInfos = pm.queryIntentActivities(urlIntent, flags);
         Collections.sort(resolveInfos, new ResolveInfo.DisplayNameComparator(pm));
 
         if (resolveInfos.isEmpty()) {
